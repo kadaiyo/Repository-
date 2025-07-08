@@ -170,6 +170,6 @@ else:
             # If any unexpected error occurs in the main loop, print it
             print(f"\n!! 主循环发生错误: {e}")
             # 并等待5秒后继续尝试，以增加程序的稳定性
-            # And wait for 5 seconds before trying again to increase program stability
+            # And wait for 5 seconds before trying again to increase program stability 
             print("程序将在5秒后继续...")
             time.sleep(5)
